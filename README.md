@@ -27,6 +27,7 @@ docker-compose up --build
 
 # Sample API requests/responses
 
+```bash
 1. Register 
 URL : http://localhost:8080/register
 Method : POST
@@ -115,6 +116,7 @@ Responses :
 {
     "message": "deleted"
 }
+```
 
 # TODO / Improvements
 
@@ -123,7 +125,7 @@ Responses :
 3. Use Redis for tokens
 
 # Project Structure
-
+```bash
 ├── main.go
 ├── Dockerfile
 ├── docker-compose.yml
@@ -139,3 +141,4 @@ Responses :
 ├── model/
 ├── proto/
 ├── grpc/
+```
